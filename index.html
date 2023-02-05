@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC">
+    <style>
+        :root {
+            --width--: 450px
+        }
+        #background-image {
+            height: 100vh;
+            width: var(--width--);
+        }
+
+        html, body {
+            margin: 0px;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #name {
+            position: absolute;
+            top: 15%;
+            width: var(--width--);
+            background-color: rgba(40, 40, 40, 0.6);
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            height: 150px;
+            width: 150px;
+            margin: 20px;
+            margin-left: 30px;
+        }
+
+        #logo-name {
+            font-size: 60px;
+            color: white;
+            margin-left: 25px;
+            font-family: Carrois Gothic SC;
+        }
+        
+        body{
+            display: flex;
+        }
+
+        #description {
+            background-color: rgba(41, 41, 41, 0.13);
+            width: 100%;
+            height: 36.8%;
+        }
+    </style>
+</head>
+<body>
+    <div id="image">
+        <img src="lexi-laginess-6poDd1l6UlM-unsplash.jpg" alt="" id="background-image">
+        <div id="name">
+            <img src="https://www.freeiconspng.com/thumbs/cheese/cheese-images-7.png" alt="" id="logo">
+            <p id="logo-name">Cheese</p>
+        </div>
+    </div>
+    <div id="description">
+        <p>cheese</p>
+    </div>
+</body>
+</html>
